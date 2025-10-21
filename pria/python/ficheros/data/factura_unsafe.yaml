@@ -1,0 +1,15 @@
+customer:
+  first_name: Pedro
+  surname: "L\xF3pez"
+date: '2023-08-06'
+items:
+- descrip: Water Bucket (Filled)
+  part_no: A4786
+  price: '1.47'
+  quantity: '4'
+- descrip: Slippers
+  part_no: E1628
+  price: '20'
+  quantity: '1'
+  size: '8'
+receipt: Factura de compra

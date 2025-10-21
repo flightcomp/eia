@@ -1,0 +1,6 @@
+grandparent:
+  parent:
+    child:
+      name: Bobby
+    sibling:
+      name: Molly

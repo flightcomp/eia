@@ -1,0 +1,8 @@
+fruits: [apple, banana, orange]
+veggies:
+  - 'tomato'
+  - "cucumber"
+  - onion
+mushrooms:
+- champignon
+- truffle
