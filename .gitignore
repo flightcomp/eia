@@ -1,8 +1,9 @@
-pria/vision/gshapes/
-pria/vision/runs/
+moia/vision/gshapes/
+moia/vision/runs/
 .ipynb_checkpoints/
 moia/data/MNIST/
 moia/model.pth
 yolo*.pt
 gshapes.zip
+test/
 
