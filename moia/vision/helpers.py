@@ -7,7 +7,8 @@ def read_image(image_url):
     from io import BytesIO
     try:
         if uri_validator(image_url):
-            response = requests.get(image_url)
+            header = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36"}
+            response = requests.get(image_url, headers=header)
             if response.status_code == 200:
                 image = Image.open(BytesIO(response.content))
             else:
